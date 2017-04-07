@@ -24,6 +24,10 @@ pip instll -U unidecode
 pip install -U nltk
 pip install flask
 pip install -U bs4
+python -m pip install -U pip setuptools
+python -m pip install matplotlib
+apt-get install python-feedparser
+python -m nltk.downloader all
 ```
 To install goose dependency
 ```sh
